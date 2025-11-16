@@ -1,0 +1,30 @@
+{
+  "name": "ai-finance-manager-backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "test": "vitest",
+    "lint": "eslint . --ext .ts,.tsx --fix"
+  },
+  "dependencies": {
+  "next": "14.0.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@prisma/client": "5.5.0",
+    "bcrypt": "5.1.0",
+    "@clerk/nextjs": "6.0.0",
+    "jsonwebtoken": "9.0.0"
+  },
+  "devDependencies": {
+    "prisma": "5.5.0",
+    "typescript": "5.1.6",
+    "eslint": "8.48.0",
+    "vitest": "^1.0.0",
+    "@types/node": "20.5.1"
+  }
+}
