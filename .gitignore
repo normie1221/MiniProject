@@ -1,6 +1,26 @@
+# Node.js
 node_modules
 .next
 .env.local
 .env
 .DS_Store
 coverage
+
+# Archives
+*.tar
+*.tar.*
+*.jar
+*.exe
+*.msi
+*.deb
+*.zip
+*.tgz
+
+# Logs
+*.log
+*.log.*
+*.sig
+
+# Build directories
+pkg/
+src/
